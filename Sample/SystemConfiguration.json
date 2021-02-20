@@ -1,0 +1,161 @@
+{
+	"Local Control Application": 
+	{
+		"Application Settings": {
+			"Configuration Version": "Test App #1 Config 12345",
+			"Header Footer Text": "DEVELOPMENT USE ONLY",
+			"Socket Port": 100,
+			"Transmission Periodicity To Server (ms)": 500
+		},
+		"Enumerations": [
+			{
+				"Set Name": "Boolean",
+				"Enum Names": [
+					{
+						"Name": "False",
+						"Value": 0
+					},
+					{
+						"Name": "True",
+						"Value": 1
+					}
+				]
+			},
+			{
+				"Set Name": "OpMode",
+				"Enum Names": [
+					{
+						"Name": "Mode 1",
+						"Value": 0
+					},
+					{
+						"Name": "Mode 2",
+						"Value": 1
+					},
+					{
+						"Name": "Mode 3",
+						"Value": 2
+					}
+				]
+			}
+		],
+		"Data From Server": {
+			"Status Data Table Displayed Ranges": [
+				{
+					"Starting Index (Inclusive)": 0,
+					"Ending Index (Exclusive)": 4
+				}
+			],
+			"Data Items": [
+				{
+					"Index": 0,
+					"Name": "TestInputSignal1",
+					"Data Type": "Unsigned",
+					"Format": "%.2f",
+					"Units": "kW"
+				},
+				{
+					"Index": 1,
+					"Name": "TestInputSignal2",
+					"Data Type": "Unsigned",
+					"Format": "",
+					"Units": "Unitless"
+				},
+				{
+					"Index": 2,
+					"Name": "TestInputSignal3",
+					"Data Type": "Unsigned",
+					"Format": "",
+					"Units": "Radians"
+				},
+				{
+					"Index": 3,
+					"Name": "CurrentOpMode",
+					"Data Type": "OpMode",
+					"Format": "",
+					"Units": "Unitless"
+				}
+			]
+		},
+		"Data To Server": {
+			"Control Data Table Displayed Ranges": [
+				{
+					"Starting Index (Inclusive)": 0,
+					"Ending Index (Exclusive)": 7
+				}
+			],
+			"Data Items": [
+				{
+					"Index": 0,
+					"Name": "TestOutputSignal1",
+					"Data Type": "Numeric",
+					"Default Value": 1.23,
+					"Min Value": 0.00,
+					"Max Value": 1000.1,
+					"Format": "%.2f",
+					"Units": "Radians"
+				},
+				{
+					"Index": 1,
+					"Name": "TestOutputSignal2",
+					"Data Type": "Boolean",
+					"Default Value": "True",
+					"Min Value": "",
+					"Max Value": "",
+					"Format": "",
+					"Units": "Unitless"
+				},
+				{
+					"Index": 2,
+					"Name": "TestOutputSignal3",
+					"Data Type": "Unsigned",
+					"Default Value": 1384,
+					"Min Value": 0,
+					"Max Value": 1399,
+					"Format": "",
+					"Units": "Radians"
+				},
+				{
+					"Index": 3,
+					"Name": "TestOutputSignal4",
+					"Data Type": "Numeric",
+					"Default Value": 1.23,
+					"Min Value": 0.00,
+					"Max Value": 1000.1,
+					"Format": "%.2f",
+					"Units": "Radians"
+				},
+				{
+					"Index": 4,
+					"Name": "TestOutputSignal5",
+					"Data Type": "Boolean",
+					"Default Value": "True",
+					"Min Value": "",
+					"Max Value": "",
+					"Format": "",
+					"Units": "Unitless"
+				},
+				{
+					"Index": 5,
+					"Name": "TestOutputSignal6",
+					"Data Type": "Unsigned",
+					"Default Value": 1384,
+					"Min Value": 0,
+					"Max Value": 1399,
+					"Format": "",
+					"Units": "Radians"
+				},
+				{
+					"Index": 6,
+					"Name": "CurrentOpModeCommand",
+					"Data Type": "OpMode",
+					"Default Value": "Mode 3",
+					"Min Value": "",
+					"Max Value": "",
+					"Format": "",
+					"Units": "Radians"
+				}
+			]
+		}
+	}	
+}
