@@ -51,7 +51,7 @@
 					"Index": 0,
 					"Name": "TestInputSignal1",
 					"Data Type": "Unsigned",
-					"Format": "%.2f",
+					"Format": "",
 					"Units": "kW"
 				},
 				{
